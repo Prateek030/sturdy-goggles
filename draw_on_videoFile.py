@@ -32,7 +32,8 @@ else:
         if clicked==True:
             cv2.circle(frame,pt1,50,color=(255,0,0),thickness=5)
         cv2.imshow('Test',frame)
-        cv2.waitKey(1)
+        if cv2.waitKey(1)==ord('q'):
+            break
 
         
 cap.release()
