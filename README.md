@@ -10,6 +10,13 @@ example:
 .......................
 cv2.VideoCapture('20-Seconds Animation') or cv2.VideoCapture(0)
 ....................
-...............
+
+#use to draw on camera with mouse
+
+
+
+
+
+
 
 
